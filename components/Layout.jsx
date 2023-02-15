@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Header from 'components/Header'
+import Head from "next/head";
+import Header from "components/Header";
 
 export default function Layout({ children }) {
   return (
@@ -13,15 +13,13 @@ export default function Layout({ children }) {
         *::after {
           box-sizing: border-box;
         }
-
         body {
           margin: 0;
           color: #333;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-            'Helvetica Neue', Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
-            'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            "Helvetica Neue", Arial, Noto Sans, sans-serif, "Apple Color Emoji",
+            "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         }
-
         .container {
           max-width: 65rem;
           margin: 1.5rem auto;
@@ -35,5 +33,5 @@ export default function Layout({ children }) {
         <div className="container">{children}</div>
       </main>
     </>
-  )
+  );
 }

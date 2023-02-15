@@ -1,5 +1,3 @@
-import { FormEvent } from "react";
-
 export default function Form({ errorMessage, onSubmit }) {
   return (
     <form onSubmit={onSubmit}>
