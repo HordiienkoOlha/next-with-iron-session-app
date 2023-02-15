@@ -4,7 +4,6 @@ import { withIronSessionSsr } from 'iron-session/next'
 import { sessionOptions } from 'lib/session'
 import { User } from 'pages/api/user'
 
-import { InferGetServerSidePropsType } from 'next'
 
 export default function SsrProfile({user}) {
   return (
